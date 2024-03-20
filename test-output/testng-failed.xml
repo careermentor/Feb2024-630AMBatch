@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.wipro.automation.fb.testcases.LoginScenario">
+      <class name="org.wipro.automation.fb.testcases.SignupScenario">
         <methods>
-          <include name="validate_loginFunctionailty"/>
+          <include name="validatefb_registration"/>
           <include name="launchBrowser"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- org.wipro.automation.fb.testcases.LoginScenario -->
+      </class> <!-- org.wipro.automation.fb.testcases.SignupScenario -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
