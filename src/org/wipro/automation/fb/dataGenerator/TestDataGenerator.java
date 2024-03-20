@@ -14,4 +14,13 @@ public class TestDataGenerator
 		return data2;
 	}
 	
+	@DataProvider(name="UO_data")
+	public Object[][] testdata_uo()
+	{
+		
+	//	Object[] data1 = {"user1","pass1"}; //1-D array
+		Object[][] data2 = {{"user1","pass1"},{"user2","pass2"},{"user3","pass3"}}; //2-D array
+		return data2;
+	}
+	
 }
